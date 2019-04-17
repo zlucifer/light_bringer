@@ -1,15 +1,5 @@
 #!/bin/bash
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
-#////                       _            _  __                              ////
-#////                      | |          (_)/ _|                             ////
-#////                   ___| |_   _  ___ _| |_ ___ _ __                     ////
-#////                  |_  / | | | |/ __| |  _/ _ \ '__|                    ////
-#////                   / /| | |_| | (__| | ||  __/ |                       ////
-#////                  /___|_|\__,_|\___|_|_| \___|_|                       ////
-#////                                                                       ////
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
+
 echo Selamat datang kak, Siapa nick kaka? #tulisan keluar
 read nick #membaca yang ditulis
 echo "             . "
@@ -26,7 +16,7 @@ echo " --._ /.==.     .==.\ _.-- "
 sleep 0.03
 echo "     ;/_o__\   /_o__\; "
 sleep 0.03
-echo "-----|'     ) (     '|-----"
+echo "-----|'     )^(     '|-----"
 sleep 0.03
 echo "    _: \_) (\_/) (_/ ;_ "
 sleep 0.03
@@ -60,7 +50,7 @@ if [[ $response != *HACKER* ]]; then
     echo "Silahkan coba lagi"
 else
     echo
-    echo "Masukan angka 1 untuk tips, dan 2 untuk melakukan pengecekan"
+    echo "Pilih & Masukan angka yang ingin $nick mau"
     echo " 1.Tips"
     echo " 2.Cek"
     echo "1/2?"
@@ -68,17 +58,16 @@ else
     if [ $info = "1" ]; then
         echo "TIPS: "
         echo " Minta nomor rekening (Atas Nama) dan "
-        echo " NIK penjual untuk di cek keasliannya"
+        echo " NIK penjual keasliannya"
         echo
-        echo " Penjual tidak mau memberi NIK = Waspada"
-        echo " Nama pemilik NIK tidak muncul = Waspada"
-        echo " Nama pemilik NIK dan Nama pemilik rekening berbeda = Waspada"
-        echo " Nama pemilik NIK sama dengan Nama pemilik rekening = Penjual asli"
+        echo " Penjual tidak mau memberi NIK = Waspada!"
+        echo " Nama pemilik NIK tidak muncul = Waspada!"
+        echo " Nama pemilik NIK dan Nama pemilik rekening berbeda = Waspada!"
+        echo " Nama pemilik NIK sama dengan Nama pemilik rekening = Aman!"
         echo " Meskipun penjual asli, tetap waspada"
      else
             echo
-            echo "Silahkan masukan NIK target"
-            echo " Contoh 1234567890876543"
+            echo "Silahkan masukan NIK target dengan benar"
             read target # masukin NIK
             echo
             echo Apakah NIK $target "sudah benar?"
@@ -94,10 +83,10 @@ else
             fi
      fi
 fi
-echo
-echo "==================================="
-echo " Tools ini gratis"
-echo " Spesial 500K subscriber HackBae"
-echo " Dilarang menjual belikan tools ini"
-echo " Dilarang menyalahgunakan tools ini :)"
-echo "==================================="
+echo "
+echo "=================================="
+echo " Tools ini Gratis! by @zLucifer"
+echo " Special 500k Subscribe HackBae
+echo " Dilarang menyalahgunakan tools ini
+echo " Gunakan Tools Dengan Bijak :)"
+echo "=================================="
