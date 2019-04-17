@@ -84,9 +84,9 @@ else
      fi
 fi
 echo "
-echo ">~==================================~<"
-echo " Tools ini Gratis! by @zLucifer"
-echo " Special 500k Subscribe HackBae
-echo " Dilarang menyalahgunakan tools ini
-echo " Gunakan Tools Dengan Bijak :)"
-echo ">~==================================~<"
+echo " >~==================================~<"
+echo "  Tools ini Gratis! by @zLucifer"
+echo "  Special 500k Subscribe HackBae
+echo "  Dilarang menyalahgunakan tools ini
+echo "  Gunakan Tools Dengan Bijak :)"
+echo " >~==================================~<"
